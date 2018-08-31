@@ -1,0 +1,18 @@
+{
+  "name": "nodejs_learnning",
+  "version": "1.0.0",
+  "description": "nodejs api test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --open --config ./config/webpack.dev.js"
+  },
+  "author": "xie",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.7",
+    "webpack-merge": "^4.1.4"
+  }
+}
