@@ -1,7 +1,7 @@
 const fs = require('fs');
 // const { URL } = require('url');
 // const fileUrl = new URL('file://file/test_file.txt');
-const url = 'nodejs/file/test_file.txt';
+const url = 'nodejs_learnning/file/test_file.txt';
 let fdNum;
 let strBuff = new Buffer('雷军说，');
 fs.open(url, 'r+', (err, fd) =>{
